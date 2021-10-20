@@ -16,7 +16,6 @@
 .about img {
   height: 300px;
   width: 300px;
-  /* border-radius: 50%; */
 }
 
 .about .details {
@@ -54,3 +53,11 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+@media (max-width: 700px) {
+    .about .details{
+        margin: 10px 0px;
+        text-align: center;
+    }
+  }
+  

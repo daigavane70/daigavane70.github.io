@@ -1,6 +1,6 @@
 .skills {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 .skills .card {
   border: none;
@@ -33,4 +33,11 @@
   height: 4rem;
   width: auto;
   margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .skills.card {
+    text-align: center;
+    width: 100%;
+  }
 }
