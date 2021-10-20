@@ -1,0 +1,36 @@
+.skills {
+    padding: 20px;
+    text-align: center;
+}
+.skills .card {
+  border: none;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.skills .skill {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
+
+.skills .card-title {
+  font-size: 1.6rem;
+  color: cadetblue;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skill img {
+  display: block;
+  height: 4rem;
+  width: auto;
+  margin-bottom: 10px;
+}

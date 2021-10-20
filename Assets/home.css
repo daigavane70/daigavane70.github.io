@@ -1,0 +1,29 @@
+.home {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: url("./bg2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: visible;
+}
+
+.home .overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+}
+
+.home .container{
+  z-index: 0;
+}
+
+.home .details h1 {
+  font-size: 60px;
+  font-weight: bold;
+}

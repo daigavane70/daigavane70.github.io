@@ -1,0 +1,41 @@
+.projects {
+  text-align: center;
+  position: relative;
+  padding-block: 20px;
+  color: black;
+}
+
+.projects .card {
+  width: 18rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  text-align: left;
+  border: 1px solid rgb(221, 221, 221);
+  text-align: justify;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.projects .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(41, 40, 40);
+  margin: 20px 0px;
+}
+
+
+.projects .card a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.projects .card a:hover {
+  background: grey;
+}
+
+.projects .card img {
+  min-width: 100%;
+  min-height: 100%;
+}
