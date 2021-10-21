@@ -13,12 +13,23 @@
 .skills .skill {
   position: relative;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: center;
-  width: auto;
-  height: auto;
+  width: fit-content;
+  height: inherit;
   border: none;
   box-shadow: none;
+}
+
+.skills .skill p{
+  display: block;
+  text-align: center;
+}
+
+.skill img {
+  height: 4rem;
+  width: auto;
+  margin-bottom: 10px;
 }
 
 .skills .card-title {
@@ -26,13 +37,6 @@
   color: cadetblue;
   font-weight: bold;
   margin-bottom: 20px;
-}
-
-.skill img {
-  display: block;
-  height: 4rem;
-  width: auto;
-  margin-bottom: 10px;
 }
 
 @media (max-width: 700px) {
