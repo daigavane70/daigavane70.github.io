@@ -1,11 +1,11 @@
 .experience {
-  color: black;
   height: fit-content;
   padding: 50px 0px;
   background: rgb(179, 226, 221);
 }
 
 .experience .card {
+  color: black;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background: rgba(255, 255, 255, 0.2);
 }

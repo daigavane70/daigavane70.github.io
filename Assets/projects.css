@@ -2,10 +2,10 @@
   text-align: center;
   position: relative;
   padding-block: 20px;
-  color: black;
 }
 
 .projects .card {
+  color: black;
   width: 18rem;
   display: inline-block;
   vertical-align: top;
