@@ -130,7 +130,5 @@ footer {
 }
 
 footer .counter{
-  display: inline;
-  position: absolute;
-  transform: scale(0.1);
+  display: none;
 }
