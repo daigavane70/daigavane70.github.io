@@ -1,25 +1,35 @@
+body {
+  background-image: url("./bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: visible;
+}
+
+
 .home {
   height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
-  background: url("./bg2.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow-x: visible;
 }
 
-.home .overlay{
+.home .overlay {
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
   background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+
+  animation: home-overlay;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.home .container{
+.home .container {
   z-index: 0;
 }
 
@@ -27,3 +37,34 @@
   font-size: 60px;
   font-weight: bold;
 }
+
+.home .intro {
+  color: rgb(18, 205, 230);
+}
+
+.home .name {
+  color: aqua;
+}
+
+.home .domain {
+  color: rgb(149, 228, 229);
+}
+
+/* 
+@keyframes home-overlay {
+  from {
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+  }
+  25% {
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(38, 70, 82, 0.6));
+  }
+  50% {
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(64, 68, 37, 0.6));
+  }
+  75% {
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(29, 58, 27, 0.6));
+  }
+  to {
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(54, 27, 48, 0.6));
+  }
+} */

@@ -1,6 +1,7 @@
 .skills {
   padding: 20px;
   text-align: center;
+  background: white;
 }
 .skills .card {
   border: none;
@@ -21,7 +22,7 @@
   box-shadow: none;
 }
 
-.skills .skill p{
+.skills .skill p {
   display: block;
   text-align: center;
 }
