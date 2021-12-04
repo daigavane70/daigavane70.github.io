@@ -7,14 +7,13 @@
 }
 
 .projects .section-header{
-  color: gray;
   border-color: rgba(100, 100, 111, 0.2);
 }
 
 .projects .card {
-  background: black;
+  background: rgb(19, 19, 19);
   color: white;
-  width: 18rem;
+  width: 20rem;
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
@@ -22,14 +21,19 @@
   text-align: left;
   border: none;
   text-align: justify;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(55, 55, 55, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.projects .card .card-text{
+  margin-block: 30px;
 }
 
 .projects .card h3 {
   font-size: 30px;
   font-weight: bold;
+  color: aqua;
   border-bottom: 1px solid rgb(41, 40, 40);
   margin: 20px 0px;
 }
@@ -50,6 +54,7 @@
 }
 
 .projects .card img {
+  background: black;
   min-width: 100%;
   min-height: 100%;
 }

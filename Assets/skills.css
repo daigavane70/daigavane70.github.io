@@ -1,20 +1,21 @@
 .skills {
   padding: 20px;
   text-align: center;
-  background: rgb(44, 44, 44);
+  background: rgb(0, 0, 0);
   padding-block: 40px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .skills .section-header{
-  color: gray;
-  border-bottom: none;
-  padding: 0px;
-  margin: 0px;
+  border-color: rgb(0, 160, 160);
 }
 
 
 .skills .main-card {
   border: none;
+  vertical-align: top;
   display: inline-block;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   margin: 10px 0px;
@@ -23,7 +24,6 @@
 
 .skills .skill {
   position: relative;
-  display: inline-block;
   vertical-align: top;
   text-align: center;
   width: fit-content;

@@ -1,23 +1,23 @@
 .experience {
   height: fit-content;
   padding: 50px 0px;
-  background: rgb(57, 78, 76);
+  background: rgb(0, 0, 0);
 }
 
 .experience .section-header{
-  color: rgb(115, 189, 185);
+  color: rgb(62, 199, 192);
 }
 
 .experience .card {
-  color: black;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: rgba(255, 255, 255, 0.2);
+  color: rgb(189, 189, 189);
+  box-shadow: rgba(40, 160, 168, 0.2) 0px 7px 29px 0px;
+  background: rgba(95, 95, 95, 0.2);
 }
 
 .card h1 {
-  color: rgb(135, 216, 212);
+  color: rgb(61, 194, 187);
 }
 
 .experience .details{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
