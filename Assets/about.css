@@ -16,11 +16,15 @@
 .about img {
   height: 300px;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 100%;
 }
 
 .about .details {
   font-weight: lighter;
+}
+
+.about .details p{
+  text-align: justify;
 }
 
 .about .fa {

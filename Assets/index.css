@@ -124,7 +124,8 @@
 
 footer {
   padding: 10px;
-  background: black;
+  padding-block: 20px;
+  background: rgb(31, 31, 31);
   width: 100%;
   text-align: center;
 }

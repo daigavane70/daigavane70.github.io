@@ -1,9 +1,19 @@
 .skills {
   padding: 20px;
   text-align: center;
-  background: white;
+  background: rgb(44, 44, 44);
+  padding-block: 40px;
 }
-.skills .card {
+
+.skills .section-header{
+  color: gray;
+  border-bottom: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.skills .main-card {
   border: none;
   display: inline-block;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -20,6 +30,8 @@
   height: inherit;
   border: none;
   box-shadow: none;
+  margin-bottom: 5px;
+  background: none;
 }
 
 .skills .skill p {
@@ -30,7 +42,6 @@
 .skill img {
   height: 2rem;
   width: auto;
-  margin-bottom: 5px;
 }
 
 .skills .card-title {
@@ -41,8 +52,12 @@
 }
 
 @media (max-width: 700px) {
-  .skills.card {
-    text-align: center;
+  .skills .main-card {
+    text-align: justify;
     width: 100%;
+  }
+
+  .skills .skill{
+    display: inline-block;
   }
 }

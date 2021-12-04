@@ -1,6 +1,7 @@
 .projects {
   text-align: center;
   position: relative;
+  padding: 20px;
   padding-block: 20px;
   background: black;
 }

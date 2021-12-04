@@ -1,7 +1,11 @@
 .experience {
   height: fit-content;
   padding: 50px 0px;
-  background: rgb(179, 226, 221);
+  background: rgb(57, 78, 76);
+}
+
+.experience .section-header{
+  color: rgb(115, 189, 185);
 }
 
 .experience .card {
@@ -11,9 +15,9 @@
 }
 
 .card h1 {
-  color: rgb(61, 190, 184);
+  color: rgb(135, 216, 212);
 }
 
 .experience .details{
-  color: rgb(82, 82, 82);
+  color: rgb(0, 0, 0);
 }
