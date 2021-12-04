@@ -2,20 +2,28 @@
   text-align: center;
   position: relative;
   padding-block: 20px;
-  background: white;
+  background: black;
+}
+
+.projects .section-header{
+  color: gray;
+  border-color: rgba(100, 100, 111, 0.2);
 }
 
 .projects .card {
-  color: black;
+  background: black;
+  color: white;
   width: 18rem;
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
   margin: 20px;
   text-align: left;
-  border: 1px solid rgb(221, 221, 221);
+  border: none;
   text-align: justify;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .projects .card h3 {
@@ -29,8 +37,11 @@
 .projects .card a {
   text-decoration: none;
   color: inherit;
-  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  background: rgb(65, 65, 65);
+  border-radius: 5px;
   padding: 10px;
+  margin-right: 5px;
 }
 
 .projects .card a:hover {
