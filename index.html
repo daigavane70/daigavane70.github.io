@@ -40,7 +40,14 @@
     ></script>
     <title>Vedant Daigavane</title>
   </head>
-  <body>
+  <body onload="disablePreloader()">
+    <div class="preloader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
     <div class="portfolio">
       <!-- Topbar -->
       <div class="topbar">
@@ -128,8 +135,8 @@
                   Built a Vendor Management System and Auction Platform.The
                   Platform automated the activities performed between Customers
                   and Vendors. Tackled some real world problems by using advance
-                  React JS and Redux concepts. The platform is built
-                  to help top MNC's in the world.
+                  React JS and Redux concepts. The platform is built to help top
+                  MNC's in the world.
                 </div>
                 <div class="col-12 text-end duration">
                   <h5>Aug 2021 - Nov 2021</h5>
@@ -169,10 +176,7 @@
                 Built a website from scratch for PCSB's annual event Xenia.
               </p>
               <p>
-                <a
-                  href="https://rebuild-hub.netlify.app/"
-                  target="_blank"
-                >
+                <a href="https://rebuild-hub.netlify.app/" target="_blank">
                   Link
                 </a>
                 <a
@@ -297,6 +301,18 @@
               <div class="card skill">
                 <img
                   src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+                  alt="..."
+                />
+              </div>
+              <div class="card skill">
+                <img
+                  src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"
+                  alt="..."
+                />
+              </div>
+              <div class="card skill">
+                <img
+                  src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"
                   alt="..."
                 />
               </div>
@@ -442,9 +458,15 @@
         </div>
       </footer>
     </div>
+
     <script>
       const tabs = document.getElementsByClassName("tabs")[0];
       const tabbutton = document.getElementsByClassName("tab-button")[0];
+
+      function disablePreloader() {
+        const loader = document.getElementsByClassName("preloader")[0];
+        loader.style.display = "none";
+      }
 
       function closeMobileNav() {
         tabs.classList.remove("mobile-tabs");
