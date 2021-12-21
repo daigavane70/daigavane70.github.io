@@ -21,9 +21,10 @@
   text-align: left;
   border: none;
   text-align: justify;
-  box-shadow: rgba(55, 55, 55, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgb(29, 29, 29) 0px 0px 29px 0px;
   border-radius: 10px;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .projects .card .card-text{
@@ -31,11 +32,11 @@
 }
 
 .projects .card h3 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 10px;
   color: aqua;
   border-bottom: 1px solid rgb(41, 40, 40);
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 

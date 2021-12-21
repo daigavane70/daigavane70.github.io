@@ -10,8 +10,9 @@
 
 .experience .card {
   color: rgb(189, 189, 189);
-  box-shadow: rgba(40, 160, 168, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgb(29, 29, 29) 0px 0px 29px 0px;
   background: rgba(95, 95, 95, 0.2);
+  border-radius: 10px;
 }
 
 .card h1 {

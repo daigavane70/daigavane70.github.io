@@ -1,17 +1,16 @@
 @font-face {
   font-family: sora-bold;
-  src: url('./Sora/static/Sora-Bold.ttf');
+  src: url("./Sora/static/Sora-Bold.ttf");
 }
 
 @font-face {
   font-family: sora;
-  src: url('./Sora/static/Sora-Regular.ttf');
+  src: url("./Sora/static/Sora-Regular.ttf");
 }
 
 * {
   transition: ease-in-out 200ms;
   font-family: sora;
-
 }
 
 .portfolio {
@@ -30,7 +29,7 @@
   top: 0px;
   left: 0px;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(58, 58, 58, 0.5);
   backdrop-filter: blur(5px);
   padding: 5px;
   display: flex;
@@ -69,11 +68,11 @@
     height: fit-content;
   }
 
-  .mobile-tabs{
+  .mobile-tabs {
     display: block;
   }
 
-  .mobile-tabs a{
+  .mobile-tabs a {
     display: block;
   }
 }
@@ -130,13 +129,12 @@ footer {
   text-align: center;
 }
 
-footer .counter{
+footer .counter {
   display: none;
 }
 
-
 /* preloader start */
-.preloader{
+.preloader {
   position: fixed;
   text-align: center;
   display: flex;
@@ -185,3 +183,26 @@ footer .counter{
 }
 
 /* preloader end */
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
