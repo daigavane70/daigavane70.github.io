@@ -1,6 +1,6 @@
 .about {
   padding: 30px;
-  color: white;
+  color: grey;
   background: rgb(21, 21, 21);
 }
 
@@ -19,42 +19,42 @@
   border-radius: 100%;
 }
 
-.about .details {
-  font-weight: lighter;
-}
 
-.about .details p{
+.about .description{
   text-align: justify;
+  font-size: 14px;
 }
 
 .about .fa {
-  font-size: 30px;
+  font-size: 20px;
   color: grey;
   text-decoration: none;
   padding-right: 10px;
 }
 
 .about .resume{
-    text-align: center;
+  display: flex;
 }
 
 .about .resume a {
+  width: 150px;
+  color: grey;
   background: none;
-  color: white;
-  padding: 10px;
-  border: 1px solid grey;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .about .resume i {
-  margin: 0px 5px;
-  text-decoration: inherit;
-  color: grey;
+  text-align: center;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 700px) {
