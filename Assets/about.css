@@ -19,8 +19,7 @@
   border-radius: 100%;
 }
 
-
-.about .description{
+.about .description {
   text-align: justify;
   font-size: 14px;
 }
@@ -32,8 +31,8 @@
   padding-right: 10px;
 }
 
-.about .resume{
-  display: flex;
+.about .resume {
+  display: inline-block;
 }
 
 .about .resume a {
@@ -48,6 +47,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px;
+  margin-inline: auto;
 }
 
 .about .resume i {
@@ -58,9 +59,7 @@
 }
 
 @media (max-width: 700px) {
-    .about .details{
-        margin: 10px 0px;
-        text-align: center;
-    }
+  .about {
+    text-align: center;
   }
-  
+}

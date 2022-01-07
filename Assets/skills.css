@@ -8,10 +8,9 @@
   align-items: center;
 }
 
-.skills .section-header{
-  border-color: rgb(0, 160, 160);
+.skills .section-header {
+  /* border-color: rgb(0, 160, 160); */
 }
-
 
 .skills .main-card {
   border: none;
@@ -30,7 +29,7 @@
   height: inherit;
   border: none;
   box-shadow: none;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   background: none;
 }
 
@@ -58,7 +57,7 @@
     width: 100%;
   }
 
-  .skills .skill{
+  .skills .skill {
     display: inline-block;
   }
 }

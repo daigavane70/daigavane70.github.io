@@ -4,8 +4,39 @@
   background: rgb(0, 0, 0);
 }
 
-.experience .section-header{
+.experience .section-header {
   color: rgb(62, 199, 192);
+}
+
+.experience .current {
+  min-height: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.experience .current img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(40%);
+  height: 250px;
+  max-width: 100%;
+  transition: ease-in-out 300ms;
+}
+
+.experience .current .image-container:hover {
+  transform: scale(1.1);
+}
+
+.experience .details h3 {
+  color: gray;
+}
+
+.experience .details h1 {
+  font-weight: bold;
+  color: rgb(91, 142, 155);
 }
 
 .experience .card {
@@ -17,10 +48,10 @@
 }
 
 .card h1 {
-  color: rgb(61, 194, 187);
+  color: rgb(91, 142, 155);
 }
 
-.experience .details{
+.experience .details {
   font-size: 14px;
   color: rgb(95, 95, 95);
   font-weight: lighter;
