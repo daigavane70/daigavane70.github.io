@@ -9,20 +9,21 @@
 }
 
 .experience .current {
-  min-height: 700px;
+  height: 700px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
   padding-bottom: 80px;
 }
 
 .experience .current img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(40%);
-  height: 250px;
-  max-width: 100%;
+  max-height: 250px;
+  max-width: 90%;
   transition: ease-in-out 300ms;
 }
 
@@ -55,4 +56,22 @@
   font-size: 14px;
   color: rgb(95, 95, 95);
   font-weight: lighter;
+}
+
+@media (max-width: 600px) {
+  .experience .current {
+    height: 400px;
+  }
+
+  .experience .current img {
+    height: 150px;
+  }
+
+  .experience .details h3 {
+    font-size: 16px;
+  }
+
+  .experience .details h1 {
+    font-size: 24px;
+  }
 }
