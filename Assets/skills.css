@@ -39,12 +39,12 @@
 }
 
 .skill img {
-  height: 2rem;
+  height: 1.8rem;
   width: auto;
 }
 
 .skills .card-title {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: cadetblue;
   font-weight: bold;
   text-align: left;

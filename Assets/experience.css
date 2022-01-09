@@ -21,7 +21,7 @@
 
 .experience .current img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(40%);
+  filter: grayscale(10%);
   max-height: 250px;
   max-width: 90%;
   transition: ease-in-out 300ms;
@@ -35,11 +35,6 @@
   color: gray;
 }
 
-.experience .details h1 {
-  font-weight: bold;
-  color: rgb(91, 142, 155);
-}
-
 .experience .card {
   margin: 5px;
   color: rgb(189, 189, 189);
@@ -49,13 +44,18 @@
 }
 
 .card h1 {
-  color: rgb(91, 142, 155);
+  color: rgb(0, 169, 169);
 }
 
 .experience .details {
   font-size: 14px;
   color: rgb(95, 95, 95);
   font-weight: lighter;
+}
+
+.experience .current h1{
+  font-weight: bold;
+  color: rgb(0, 169, 169);
 }
 
 @media (max-width: 600px) {

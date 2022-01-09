@@ -12,7 +12,7 @@
 
 .projects .card {
   background: rgb(19, 19, 19);
-  color: white;
+  color: grey;
   width: 20rem;
   border-radius: 10px;
   display: inline-block;
@@ -34,7 +34,7 @@
 .projects .card h3 {
   font-size: 24px;
   padding-bottom: 10px;
-  color: rgb(91, 142, 155);
+  color: rgb(0, 169, 169);
   border-bottom: 1px solid rgb(41, 40, 40);
   margin: 10px 0px;
 }
