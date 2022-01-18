@@ -9,7 +9,7 @@ body {
 
 
 .home {
-  height: 100vh;
+  height: 600px;
   width: 100%;
   position: relative;
   display: flex;
@@ -36,19 +36,32 @@ body {
 
 .home .details h1 {
   font-size: 60px;
-  font-weight: bold;
 }
 
 .home .intro {
-  color: rgb(18, 205, 230);
+  color: rgb(123, 143, 146);
+  font-size: 2rem;
 }
 
 .home .name {
+  font-size: 3.2rem;
+  font-weight: lighter;
   color: aqua;
 }
 
-.home .domain {
-  color: rgb(149, 228, 229);
+.home .domain{
+  display: flex;
+  align-items: center;
+  color: rgb(201, 201, 201);
+}
+
+.home .domain h2{
+  font-size: 2rem;
+}
+
+.home .domain div{
+  font-size: 1.4rem;
+  padding-inline: 20px;
 }
 
 /* 

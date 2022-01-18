@@ -53,6 +53,7 @@
     </div>
 
     <div class="portfolio">
+      
       <!-- Topbar -->
       <div class="topbar">
         <div class="profile-pic">
@@ -86,14 +87,22 @@
         <div class="overlay"></div>
         <div class="container">
           <div class="row">
-            <div class="col-12 intro">
-              <h3>Hii, I am</h3>
+            <div class="col-12">
+              <div class="intro">Hii, I am</div>
             </div>
             <div class="col-12">
               <div class="details">
-                <h1 class="name">Vedant Daigavane</h1>
+                <div class="name">Vedant Daigavane</div>
                 <hr />
-                <h2 class="domain">Full-Stack Developer</h2>
+                <div class="domain">
+                  <h2>Full-Stack Developer</h2>
+                  <!-- <div>from</div>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/256/256672.png"
+                    height="40"
+                    alt=""
+                  /> -->
+                </div>
               </div>
             </div>
             <div class="col"></div>
@@ -419,7 +428,7 @@
             </div>
             <div class="col-md-6">
               <div class="name"><h1>Vedant Daigavane</h1></div>
-              <p class="description">
+              <p class="desc">
                 I am a highly enthusiastic and competitive person who likes
                 being around people who like to test my limits and I try to push
                 theirs as well. I love to acquire new skills and share my
@@ -494,11 +503,6 @@
     <script>
       const tabs = document.getElementsByClassName("tabs")[0];
       const tabbutton = document.getElementsByClassName("tab-button")[0];
-
-      function disablePreloader() {
-        const loader = document.getElementsByClassName("preloader")[0];
-        loader.style.display = "none";
-      }
 
       function closeMobileNav() {
         tabs.classList.remove("mobile-tabs");
