@@ -1,12 +1,11 @@
 body {
-  background-image: url("./bg3.jpg");
+  background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   overflow-x: visible;
 }
-
 
 .home {
   height: 600px;
@@ -49,17 +48,17 @@ body {
   color: aqua;
 }
 
-.home .domain{
+.home .domain {
   display: flex;
   align-items: center;
   color: rgb(201, 201, 201);
 }
 
-.home .domain h2{
+.home .domain h2 {
   font-size: 2rem;
 }
 
-.home .domain div{
+.home .domain div {
   font-size: 1.4rem;
   padding-inline: 20px;
 }
