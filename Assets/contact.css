@@ -1,0 +1,11 @@
+
+.contact{
+    background-color: rgb(22, 22, 22);
+    padding-block: 20px;
+  }
+
+
+.contact .section-header {
+    color: grey;
+    border: none;
+  }

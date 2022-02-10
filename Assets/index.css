@@ -22,39 +22,6 @@
   color: white;
 }
 
-.sidebar {
-  width: 300px;
-  height: 100vh;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: rgba(31, 31, 31);
-  backdrop-filter: blur(5px);
-}
-
-.sidebar .sidebar-tabs {
-  display: block;
-  width: 100%;
-  margin-bottom: 30px;
-  color: whitesmoke;
-  font-size: 18px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid aqua;
-  text-decoration: none;
-  transition: ease-in-out 200ms;
-}
-
-.sidebar .sidebar-tabs:hover {
-  transform: scale(1.05);
-  font-weight: bolder;
-  color: aqua;
-}
-
 .topbar {
   height: 80px;
   width: 100%;
@@ -241,16 +208,8 @@ footer .counter {
   background: #555;
 }
 
-.contact{
-  background-color: rgb(34, 34, 34);
-}
-
 @media (max-width: 500px) {
-  .sidebar {
-    display: none;
-  }
-
-  .topbar{
+  .topbar {
     display: unset;
   }
 

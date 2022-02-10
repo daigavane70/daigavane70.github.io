@@ -1,0 +1,57 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(19, 19, 19);
+  backdrop-filter: blur(5px);
+}
+
+.sidebar .sidebar-tabs {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(62, 146, 146);
+  text-decoration: none;
+  transition: ease-in-out 200ms;
+}
+
+.sidebar .sidebar-tabs:hover {
+  transform: scale(1.05);
+  font-weight: bolder;
+  color: aqua;
+}
+
+.sidebar .title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: rgb(75, 181, 189);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+  padding-bottom: 10px;
+}
+
+.sidebar .search-bar {
+  background-color: rgb(68, 68, 68);
+  color: gray;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+}
